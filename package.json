@@ -1,4 +1,11 @@
 {
+    "name": "less-vs",
+    "displayName": "less-vs",
+    "description": "Less theme. More focus.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.106.1"
+    },
     "categories": [
         "Themes"
     ],
@@ -15,27 +22,22 @@
                 "path": "./themes/cool-cowboy-theme.json"
             },
             {
-                "label": "Kanzo-Ink",
-                "uiTheme": "vs",
+                "label": "Kanzo Ink",
+                "uiTheme": "vs-dark",
                 "path": "./themes/kanso-ink.json"
             },
             {
                 "label": "Sequoia Monochrome",
-                "uiTheme": "vs",
+                "uiTheme": "vs-dark",
                 "path": "./themes/sequoia-monochrome.json"
             }
         ]
     },
-    "description": "Less themes. More focus",
-    "devDependencies": {
-        "@vscode/vsce": "^3.2.1"
-    },
-    "displayName": "Less VS Themes",
-    "engines": {
-        "vscode": "^1.77.0"
+    "packageManager": "pnpm@10.5.2+sha512.da9dc28cd3ff40d0592188235ab25d3202add8a207afbedc682220e4a0029ffbff4562102b9e6e46b4e3f9e8bd53e6d05de48544b0c57d4b0179e22c76d1199b",
+    "dependencies": {
+        "ovsx": "^0.10.7"
     },
     "homepage": "https://github.com/exdysa/less-vs",
-    "icon": "icon.png",
     "keywords": [
         "minimal",
         "dark",
