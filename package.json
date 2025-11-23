@@ -1,0 +1,47 @@
+{
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Color Fatigue Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/color-fatigue-dark.json"
+            },
+            {
+                "label": "Cool Cowboy Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cool-cowboy-theme.json"
+            },
+            {
+                "label": "Kanzo-Ink",
+                "uiTheme": "vs",
+                "path": "./themes/kanso-ink.json"
+            }
+            {
+                "label": "Sequoia Monochrome",
+                "uiTheme": "vs",
+                "path": "./themes/sequoia-monochrome.json"
+            }
+        ]
+    },
+    "description": "Less themes. More focus",
+    "devDependencies": {
+        "@vscode/vsce": "^3.2.1"
+    },
+    "displayName": "Less VS Themes",
+    "engines": {
+        "vscode": "^1.77.0"
+    },
+    "homepage": "https://github.com/exdysa/less-vs",
+    "icon": "icon.png",
+    "keywords": [
+        "minimal",
+        "theme",
+        "dark",
+        "monochrome",
+        "desaturated",
+        "zen",
+    ],
+}
