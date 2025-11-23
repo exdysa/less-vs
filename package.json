@@ -18,7 +18,7 @@
                 "label": "Kanzo-Ink",
                 "uiTheme": "vs",
                 "path": "./themes/kanso-ink.json"
-            }
+            },
             {
                 "label": "Sequoia Monochrome",
                 "uiTheme": "vs",
@@ -38,10 +38,10 @@
     "icon": "icon.png",
     "keywords": [
         "minimal",
-        "theme",
         "dark",
         "monochrome",
         "desaturated",
-        "zen",
-    ],
+        "greyscale",
+        "zen"
+    ]
 }
