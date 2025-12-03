@@ -2,10 +2,11 @@
     "name": "less-vs",
     "displayName": "less-vs",
     "description": "Less theme. More focus.",
+    "repository": "https://github.com/exdysa/less-vs",
     "version": "0.0.1",
     "publisher": "exdysa",
     "engines": {
-        "vscode": "^1.106.1"
+        "vscode": "^2.1.39"
     },
     "categories": [
         "Themes"
@@ -36,7 +37,25 @@
     },
     "packageManager": "pnpm@10.5.2+sha512.da9dc28cd3ff40d0592188235ab25d3202add8a207afbedc682220e4a0029ffbff4562102b9e6e46b4e3f9e8bd53e6d05de48544b0c57d4b0179e22c76d1199b",
     "dependencies": {
+        "@vscode/vsce": "^3.7.1",
         "ovsx": "^0.10.7"
+    },
+    "scripts": {
+        "package": "npm vsce package --no-dependencies",
+        "publish": "npm vsce publish --no-dependencies",
+        "vscode:prepublish": "npm run esbuild-base -- --minify",
+        "esbuild-base": "esbuild ./src/extension.ts --bundle --outfile=out/main.js --external:vscode --format=cjs --platform=node"
+    },
+    "devDependencies": {
+        "esbuild": "^0.27.0"
+    },
+    "pnpm": {
+        "ignoredBuiltDependencies": [
+            "esbuild"
+        ],
+        "onlyBuiltDependencies": [
+            "esbuild"
+        ]
     },
     "homepage": "https://github.com/exdysa/less-vs",
     "keywords": [
