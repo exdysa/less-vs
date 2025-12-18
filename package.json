@@ -3,10 +3,10 @@
     "displayName": "less-vs",
     "description": "Less theme. More focus.",
     "repository": "https://github.com/exdysa/less-vs",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "publisher": "exdysa",
     "engines": {
-        "vscode": "^2.1.39"
+        "vscode": "^1.105.1"
     },
     "categories": [
         "Themes"
