@@ -12,7 +12,7 @@ Cool Cowboy by [lulu-rijpkema](https://github.com/LRijpkema/cool-cowboy-theme)
 
 Kanzo Ink by [Webhooked](https://github.com/webhooked/kanso.nvim)
 
-![Screenshot](https://raw.githubusercontent.com/exdysa/less-vs/refs/heads/main/assets/sequoiamono.png)
+![Screenshot](https://raw.githubusercontent.com/exdysa/less-vs/refs/heads/main/assets/kanzoink.png)
 
 Sequoia Monochrome by [Michael Andreuzza](https://github.com/Sequoia-Theme/vs-code)
 
