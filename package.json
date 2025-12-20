@@ -3,7 +3,7 @@
     "displayName": "less-vs",
     "description": "Less theme. More focus.",
     "repository": "https://github.com/exdysa/less-vs",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "exdysa",
     "engines": {
         "vscode": "^1.105.1"
@@ -64,6 +64,7 @@
         "monochrome",
         "desaturated",
         "greyscale",
+        "low-contrast",
         "zen"
     ]
 }
